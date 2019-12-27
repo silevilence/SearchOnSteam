@@ -2,7 +2,8 @@ let searchMenuId = 'SearchOnSteam';
 
 function searchOnSteam(info, tab) {
     if (info.menuItemId === searchMenuId) {
-        window.open("https://store.steampowered.com/search/?term=" + escape(info.selectionText));
+        window.open("https://store.steampowered.com/search/?term=" + encodeURI(info.selectionText)
+            .replace("&", "%26").replace("=", "%3D").replace("?", "%3F"));
     }
 }
 
