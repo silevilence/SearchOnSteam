@@ -1,6 +1,6 @@
 {
     "name": "Search on Steam",
-    "version": "0.1",
+    "version": "0.2",
     "description": "Fast open steam search page with name of game.",
     "background": {
         "scripts": ["background.js"],
