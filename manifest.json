@@ -1,0 +1,19 @@
+{
+    "name": "Search on Steam",
+    "version": "0.1",
+    "description": "Fast open steam search page with name of game.",
+    "background": {
+        "scripts": ["background.js"],
+        "persistent": false
+    },
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "32": "images/icon32.png"
+        }
+    },
+    "icons": {
+        "32": "images/icon32.png"
+    },
+    "manifest_version": 2
+}
